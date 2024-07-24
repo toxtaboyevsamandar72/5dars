@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.user_container {
+    width: 500px;
+    height: 600px;
+    border: 2px solid rgb(0, 254, 85);
+    padding: 40px;
+    border-radius: 30px;
+}
+.todo {
+margin-bottom: 20px;
+}
+.input {
+    width: 400px;
+    height: 45px;
+    padding: 10px;
+    color: rgb(4, 4, 70);
+    font-size: 20px;
+}
+.button {
+    width: 40px;
+    height: 45px;
+    background-color: rgb(12, 53, 219);
+    color: aquamarine;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.button:hover {
+
+    background-color: rgb(20, 59, 5);
+    color: rgb(132, 128, 159);
+}
+.text_user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    
+}
+.info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    
+}
+.info h3 {
+    border: 1px solid aqua;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.btn {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(219, 12, 43);
+    color: aquamarine;
+    transition: all 0.8s;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+
+    background-color: rgb(65, 154, 30);
+    color: rgb(0, 0, 0);
+}
+.clear {
+    width: 50px;
+    height: 30px;
+    margin-top: 200px;
+    margin-left: 370px;
+    border-radius: 10px;
+    background-color: blue;
+    color: antiquewhite;
+    transition: all 0.8s;;
+    cursor: pointer;
+}
+.clear:hover {
+
+    background-color: rgb(133, 72, 72);
+    color: rgb(234, 224, 224);
+}
